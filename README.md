@@ -14,18 +14,19 @@
 #
 
 ## Step 1: Prepare the data for training and testing
-In process
+Completed.
 ## Step 2: Build and train custom LSTM RNNs
-In process
+Completed.
 ## Step 3: Evaluate the performace of each model
-In process
+Completed.
 1. Which model has a lower loss?  
-2. Which model tracks the actual values better over time?
-3. Which window size works best for the model?
+The first model (closing) has a lower loss.
+2. Which model tracks the actual values better over time?  
+The first model (closing) tracks the actual values better over time, as shown in the graph below.   
 
-#
+![image](./images/closingplot.png)
+3. Which window size works best for the model?  
+I tested 1-10 for the window size, and 1 caused the predicted orange line to be significantly off, so 10 works best as the predicted orange line better tracks with the actual blue line on the graph (as shown above).
 
-### Notes  
 
-![image](./images/deep-learning.jpg)   
 
