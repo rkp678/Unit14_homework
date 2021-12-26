@@ -24,7 +24,10 @@ The first model (closing) has a lower loss.
 2. Which model tracks the actual values better over time?  
 The first model (closing) tracks the actual values better over time, as shown in the graph below.   
 
-![image](./images/closingplot.png)
+
+    <img src="./images/closingplot.png" width="300" height="200" />
+
+
 3. Which window size works best for the model?  
 I tested 1-10 for the window size, and 1 caused the predicted orange line to be significantly off, so 10 works best as the predicted orange line better tracks with the actual blue line on the graph (as shown above).
 
