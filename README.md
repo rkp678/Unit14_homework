@@ -25,7 +25,7 @@ The first model (closing) has a lower loss.
 The first model (closing) tracks the actual values better over time, as shown in the graph below.   
 
 
-    <img src="./images/closingplot.png" width="300" height="200" />
+    <img src="./Images/closingplot.png" width="300" height="200" />
 
 
 3. Which window size works best for the model?  
